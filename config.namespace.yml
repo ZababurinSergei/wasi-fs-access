@@ -1,0 +1,110 @@
+proxy:
+    url: "localhost:4619"
+scope:
+- namespace: io
+  type: MVP
+  scope:
+  - /
+- namespace: database
+  type: SPA
+  scope:
+  - /
+- namespace: directory
+  type: SPA
+  scope:
+  - /
+- namespace: audio
+  type: SPA
+  scope:
+  - /
+- namespace: merkleTools
+  type: MVP
+  scope:
+  - /
+- namespace: system
+  type: MVP
+  scope:
+  - /
+- namespace: soundcheckbox
+  type: MVP
+  scope:
+  - /
+  - /soundcheckbox.github.io.git
+  - /editor
+- namespace: presets
+  type: MVP
+  scope:
+  - /
+- namespace: radio
+  type: MVP
+  scope:
+  - /
+- namespace: fileSystem
+  type: MVP
+  scope:
+  - /
+- namespace: auction
+  type: MVP
+  scope:
+  - /
+- namespace: peer
+  type: MVP
+  scope:
+  - /
+- namespace: blockchain
+  type: MVP
+  scope:
+  - /
+- namespace: shell
+  type: MVP
+  scope:
+  - /
+- namespace: star
+  type: MVP
+  scope:
+  - /
+- namespace: conceptnet
+  type: MVP
+  scope:
+  - /
+- namespace: semantic
+  type: MVP
+  scope:
+  - /
+- namespace: stream
+  type: MVP
+  scope:
+  - /
+- namespace: web3-storage
+  type: MVP
+  scope:
+  - /
+- namespace: ICD-11
+  type: MVP
+  scope:
+  - /docs
+- namespace: aioli
+  type: MVP
+  scope:
+  - /
+- namespace: ring-buffer
+  type: MVP
+  scope:
+  - /
+- namespace: simple-kernel
+  type: MVP
+  scope:
+  - /
+- namespace: wiki
+  type: MVP
+  scope:
+  - /
+- namespace: line
+  type: MVP
+  scope:
+  - /
+- namespace: editor
+  type: spa
+  scope:
+  - /
+
