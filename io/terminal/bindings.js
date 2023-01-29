@@ -143,6 +143,7 @@ export const lineOut = (writeLn) => {
         let lines = lineBuf.split('\n');
         lineBuf = lines.pop();
         for (let line of lines) {
+            console.log('sssss line ssssss', line)
             writeLn(line);
         }
     });

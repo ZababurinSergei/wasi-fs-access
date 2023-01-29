@@ -166,8 +166,9 @@
 <textarea id="output" rows="8"></textarea>
 <script type="module">
     import terminal from './terminal/browser.js'
+    import Aioli from './terminal/aioli.mjs'
     terminal()
-        // console.log('=====================', cli)
+    console.log('=====================', new Aioli())
     // import { test } from '/modules/tests/frontend/src/index.mjs'
     //TODO подключение файловой системы
     // import service from '/service/WCNode/src/fs/index.mjs'
